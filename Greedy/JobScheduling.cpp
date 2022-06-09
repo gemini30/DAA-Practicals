@@ -46,6 +46,11 @@ int main()
     int n;
     cin >> n;
     vector<Job> arr(n);
+    //  Job arr[] = { { 'a', 2, 100 },
+    //               { 'b', 1, 19 },
+    //               { 'c', 2, 27 },
+    //               { 'd', 1, 25 },
+    //               { 'e', 3, 15 } };
     for (auto &it : arr)
     {
         cout << "Enter the job id,profit and the deadline of the job : ";

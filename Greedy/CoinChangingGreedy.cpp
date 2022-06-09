@@ -2,12 +2,12 @@
 using namespace std;
 
 
-void coinChange(int v,int deno[],int n){
+void coinChange(int amt,int deno[],int n){
     vector<int> coins;
     int reqCoins = 0;
     for(int i=n-1;i>=0;i--){
-        while(v>=deno[i]){
-            v-=deno[i];
+        while(amt>=deno[i]){
+            amt-=deno[i];
             reqCoins++;
             coins.push_back(deno[i]);
         }
@@ -32,9 +32,9 @@ int main(){
         cin>>deno[i];
     }
     cout<<"Enter amount: "<<endl;
-    int v;
-    cin>>v;
-    coinChange(v,deno,n);
+    int amt;
+    cin>>amt;
+    coinChange(amt,deno,n);
    
     return 0;
 }

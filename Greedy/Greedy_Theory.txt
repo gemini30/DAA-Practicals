@@ -1,0 +1,38 @@
+GREEDY
+Greedy is an algorithmic paradigm used where locally optimal solution also leads to a global solution
+For example consider the Fractional Knapsack Problem. The local optimal strategy is to choose the item that has maximum value vs weight ratio. This strategy also leads to global optimal solution because we allowed to take fractions of an item.
+
+Advantages 
+- Greedy approach is easy to implement.
+- Typically have less time complexities.
+- Greedy algorithms can be used for optimization purposes or finding close to optimization in case of NP Hard problems.
+
+Disadvantages 
+- The local optimal solution may not always be global optimal.
+
+
+Optimal Storage Of Tapes 
+Time complexity: O(nlogn)
+- order of storing becomes very important to reduce the data retrieval/access time. 
+
+Fractional Knapsack 
+Time complexity: O(nlogn)
+- order of storing becomes very important to reduce the data retrieval/access time. 
+
+Application
+The knapsack problems have a variety of real life applications including financial modeling, production and inventory management systems, stratified sampling, design of queuing network models in manufacturing, and control of traffic overload in telecommunication systems.
+
+
+Job Scheduling
+Time complexity: O(n^2) in used code
+O(nlogn) (using heap)
+
+Subset Cover
+
+
+Container Loading 
+Time complexity: O(nlogn)
+
+Coin Changing
+Time complexity: O(amt)
+
