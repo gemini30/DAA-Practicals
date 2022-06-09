@@ -39,8 +39,8 @@ int main()
         cin >> it;
     }
 
-    int mini = 1e9;
-    int maxi = -1e9;
+    int mini = INT_MAX;
+    int maxi = INT_MIN;
 
     int low = 0;
     int high = n - 1;

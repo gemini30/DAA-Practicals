@@ -1,1 +1,33 @@
-Max Min algo
+Divide and Conquer
+This technique can be divided into the following three parts:
+Divide: This involves dividing the problem into smaller sub-problems.
+Conquer: Solve sub-problems by calling recursively until solved.
+Combine: Combine the sub-problems to get the final solution of the whole problem.
+
+Advantages
+- The divide and conquer divides the problem into sub-problems which can run parallelly at the same time. Thus, this algorithm works on parallelism. This property of divide and conquer is extensively used in the operating system.
+
+Disadvantages
+- The divide and conquer technique uses recursion. Recursion in turn leads to lots of space complexity because it makes use of the stack.
+
+- The implementation of divide and conquer requires high memory management.
+
+
+Max Min 
+Time complexity: O(n)
+
+Merge Sort
+Time complexity: O(nlogn)
+
+Quick Sort
+Time complexity: Average case O(nlogn)
+                 Worst case O(n^2)
+
+Karatsuba
+Time complexity: O(nlog23) = O(n1.59)
+
+Strassens multiplication:
+Time complexity: O(n^2.8)
+
+
+
